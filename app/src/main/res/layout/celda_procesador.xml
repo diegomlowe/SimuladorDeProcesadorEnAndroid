@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+
+
+            <TextView
+                android:id="@+id/txt_view_id_celda_procesador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procesador: "
+                android:layout_weight="1"
+                android:gravity="center"
+
+                />
+
+        <TextView
+            android:id="@+id/txt_view_ut_totales_celda_procesador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UT Totales: "
+            android:layout_weight="1"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/txt_view_utes_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UT E/S: "
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/txt_view_so_por_unidad_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SO: "
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_view_desalojo_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desalojo: "
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/txt_view_ut_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UT: "
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/txt_view_so_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SO: "
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_view_osciosas_celda_procesador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UT Osciosas: "
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

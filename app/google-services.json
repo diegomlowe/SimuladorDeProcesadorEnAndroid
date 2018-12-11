@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511264347978",
+    "firebase_url": "https://procesador2-3dd3b.firebaseio.com",
+    "project_id": "procesador2-3dd3b",
+    "storage_bucket": "procesador2-3dd3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511264347978:android:5adaae2790b7d444",
+        "android_client_info": {
+          "package_name": "documents.diego.procesador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511264347978-llpi8p0vqsaigljo410o45caa2h6nkfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "documents.diego.procesador",
+            "certificate_hash": "c6eeea7570df29c63d6bbe631f77bf5e1f4d1c02"
+          }
+        },
+        {
+          "client_id": "511264347978-k3otqf2f7c527lr9nqr1vskukr03s6h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0PsBijvgUSVXmdh6ZAMoyk9lXXMR0aH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511264347978-k3otqf2f7c527lr9nqr1vskukr03s6h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
